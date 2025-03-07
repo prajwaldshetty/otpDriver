@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Driver OTP Form</title>
+    <link rel="stylesheet" href="otpDriver.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Driver Side</h2>
+        <input type="text" placeholder="Employee Name" required>
+        <input type="text" placeholder="Location" required>
+        <h3>Enter OTP</h3>
+        <div class="otp-container">
+            <input type="text" class="otp-box" maxlength="1">
+            <input type="text" class="otp-box disabled" value="✖" disabled>
+            <input type="text" class="otp-box" maxlength="1">
+            <input type="text" class="otp-box disabled" value="✖" disabled>
+            <input type="text" class="otp-box" maxlength="1">
+            <input type="text" class="otp-box disabled" value="✖" disabled>
+        </div>
+        <button type="submit">Submit</button>
+    </div>
+</body>
+</html>
